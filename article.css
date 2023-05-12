@@ -181,9 +181,67 @@ body {
 
 /* Article section start */
 
-.world-news-wrapper {
+.article-section {
+    margin-top: 50px;
+}
+.article-wrapper {
     display: flex;
     gap: 10px;
+}
+
+.article-content {
+    width: 797px;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 50px;
+}
+
+.article-source {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F61;
+}
+time {
+    margin-left: 5px;
+}
+
+.article-source::before {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    content: url();
+    background-image: url(./images/sources-logos/solenka.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.article-title {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.paragraph-content {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.paragraph {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
 }
 
 
@@ -194,6 +252,7 @@ body {
     background: #F6F6F6;
     border-radius: 15px;
     padding: 20px 20px 25px 17px;
+    margin-top: 0;
 }
 
 .sidebar-item:not(:last-child) {
