@@ -299,12 +299,108 @@ time {
 }
 
 
-.sidebar-line {
+/* .sidebar-line {
     width: 359px;
     border: 1px solid #D2D2D2;
     margin-top: 20px;
     margin-bottom: 20px;
+} */
+
+.blog-section {
+    margin-bottom: 100px;
 }
+
+.blog-title {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 10px;
+}
+
+.blog-list-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+
+.blog-list-link {
+    text-decoration: none;
+}
+
+.blog-list-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.blog-list-item {
+    width: 393px;
+    padding: 20px 18px 15px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.blog-list-sr {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61; 
+}
+
+
+.blog-1::before {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    content: url();
+    background-image: url(./images/sources-logos/solenka.png);
+    background-size: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.blog-2::before {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    content: url();
+    background-image: url(./images/sources-logos/lentaru.png);
+    background-size: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.blog-3::before {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    content: url();
+    background-image: url(./images/sources-logos/tarantas.png);
+    background-size: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+
+
 
 /* Main section end */
 /* Footer start */
