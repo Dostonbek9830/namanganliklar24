@@ -366,6 +366,8 @@ input {
     justify-content: space-between;
     margin-top: 15px;
     padding-right: 75px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CECECE;
 }
 
 .primary-footer-right {
@@ -400,13 +402,6 @@ input {
 
 /* Secondary footer start */
 
-.footer-divider {
-    display: block;
-    margin-top: 30px;
-    width: 998px;
-    height: 1px;
-    background: #CECECE;
-}
 
 .secondary-footer-header {
     width: 161px;
